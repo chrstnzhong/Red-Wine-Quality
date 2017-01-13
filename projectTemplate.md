@@ -25,7 +25,7 @@ Univariate Plots Section
     ##  $ alcohol             : num  9.4 9.8 9.8 9.8 9.4 9.4 9.4 10 9.5 10.5 ...
     ##  $ quality             : int  5 5 5 6 5 5 5 7 7 5 ...
 
-![](projectTemplate_files/figure-markdown_github/Histograms1-1.png)
+![](figure-markdown_github/Histograms1-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##    4.60    7.10    7.90    8.32    9.20   15.90
