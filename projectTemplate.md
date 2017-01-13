@@ -25,43 +25,43 @@ Univariate Plots Section
     ##  $ alcohol             : num  9.4 9.8 9.8 9.8 9.4 9.4 9.4 10 9.5 10.5 ...
     ##  $ quality             : int  5 5 5 6 5 5 5 7 7 5 ...
 
-![](projectTemplate_files/figure-markdown_github/Histograms1-1.png)
+![](figure-markdown_github/Histograms1-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##    4.60    7.10    7.90    8.32    9.20   15.90
 
-![](projectTemplate_files/figure-markdown_github/Histograms2-1.png)
+![](figure-markdown_github/Histograms2-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  0.1200  0.3900  0.5200  0.5278  0.6400  1.5800
 
 The range for volatile acidity is much smaller than the range is for fixed acidity. However both distributions are slightly skewed right as they may have some relation to each other. I will explore this later in the bivariate plots section.
 
-![](projectTemplate_files/figure-markdown_github/Histograms3-1.png)
+![](figure-markdown_github/Histograms3-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##   0.000   0.090   0.260   0.271   0.420   1.000
 
 It seems many of the wines have close to no citric acid. Although citric acid can add "freshness" to the taste of the wine, I wonder if such small amounts of citric acid will be noticeable.
 
-![](projectTemplate_files/figure-markdown_github/Histograms4-1.png)
+![](figure-markdown_github/Histograms4-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##   0.900   1.900   2.200   2.539   2.600  15.500
 
-![](projectTemplate_files/figure-markdown_github/Histograms4-2.png)
+![](figure-markdown_github/Histograms4-2.png)
 
     ##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
     ## -0.04576  0.27880  0.34240  0.36930  0.41500  1.19000
 
 Most of the red wines have around 2-3 grams of sugar per liter.
 
-![](projectTemplate_files/figure-markdown_github/Histograms5-1.png)
+![](figure-markdown_github/Histograms5-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ## 0.01200 0.07000 0.07900 0.08747 0.09000 0.61100
 
-![](projectTemplate_files/figure-markdown_github/Histograms5-2.png)
+![](figure-markdown_github/Histograms5-2.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  -1.921  -1.155  -1.102  -1.088  -1.046  -0.214
@@ -70,22 +70,22 @@ Most red wines have around 0.1 grams of salt per liter.
 
 Similar to citric acid, I wonder if such small amounts of residual sugar and chlorides will affect the taste of the wine.
 
-![](projectTemplate_files/figure-markdown_github/Histograms6-1.png)
+![](figure-markdown_github/Histograms6-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##    1.00    7.00   14.00   15.87   21.00   72.00
 
-![](projectTemplate_files/figure-markdown_github/Histograms6-2.png)
+![](figure-markdown_github/Histograms6-2.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  0.0000  0.8451  1.1460  1.1060  1.3220  1.8570
 
-![](projectTemplate_files/figure-markdown_github/Histograms7-1.png)
+![](figure-markdown_github/Histograms7-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##    6.00   22.00   38.00   46.47   62.00  289.00
 
-![](projectTemplate_files/figure-markdown_github/Histograms7-2.png)
+![](figure-markdown_github/Histograms7-2.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  0.7782  1.3420  1.5800  1.5640  1.7920  2.4610
@@ -98,33 +98,33 @@ The median total sulfur dioxide is 38 ppm while the mean sulfur dioxide is 46.47
 
 There are 557 wines with a ppm level of 50 or above, which makes up 35% of the wines.
 
-![](projectTemplate_files/figure-markdown_github/Histograms8-1.png)
+![](figure-markdown_github/Histograms8-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  0.9901  0.9956  0.9968  0.9967  0.9978  1.0040
 
 Density has a fairly normal distribution with an extremely small range. 50% of the wines have a density between 0.9956 and 0.9978.
 
-![](projectTemplate_files/figure-markdown_github/Histograms9-1.png)
+![](figure-markdown_github/Histograms9-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##   2.740   3.210   3.310   3.311   3.400   4.010
 
 The distribution of pH levels is also fairly normal. The mean and median are almost the same. 50% of the wines have a pH level between 3.21 and 3.40.
 
-![](projectTemplate_files/figure-markdown_github/Histograms10-1.png)
+![](figure-markdown_github/Histograms10-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  0.3300  0.5500  0.6200  0.6581  0.7300  2.0000
 
-![](projectTemplate_files/figure-markdown_github/Histograms11-1.png)
+![](figure-markdown_github/Histograms11-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##    8.40    9.50   10.20   10.42   11.10   14.90
 
 The median alcohol content is 10.20% and the mean is 10.41%. However there is a spike in the number of wines with an alcohol content of around 9.5%
 
-![](projectTemplate_files/figure-markdown_github/Histograms12-1.png)
+![](figure-markdown_github/Histograms12-1.png)
 
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##   3.000   5.000   6.000   5.636   6.000   8.000
@@ -181,7 +181,7 @@ Bivariate Plots Section
 
 Although we looked at the distribution of each attribute in the univariate section, I'm curious to see how distributions may vary across the different qualities.
 
-![](projectTemplate_files/figure-markdown_github/Distribution_by_quality1-1.png)
+![](figure-markdown_github/Distribution_by_quality1-1.png)
 
     ## # A tibble: 6 × 3
     ##   quality mean_fixed.acidity median_fixed.acidity
@@ -195,7 +195,7 @@ Although we looked at the distribution of each attribute in the univariate secti
 
 The distribution for fixed acidity becomes more normal as the quality increases.
 
-![](projectTemplate_files/figure-markdown_github/Distribution_by_quality2-1.png)
+![](figure-markdown_github/Distribution_by_quality2-1.png)
 
     ## # A tibble: 6 × 3
     ##   quality mean_volatile.acidity median_volatile.acidity
@@ -209,7 +209,7 @@ The distribution for fixed acidity becomes more normal as the quality increases.
 
 The distribution for volatile acidity becomes more right-skewed as the quality increases. Although fixed acidity and volatile acidity had similar overall distributions, it seems as if the distributions are very different when grouping by quality. These two attributes may not be as closely related as I originally thought.
 
-![](projectTemplate_files/figure-markdown_github/Distribution_by_quality3-1.png)
+![](figure-markdown_github/Distribution_by_quality3-1.png)
 
     ## # A tibble: 6 × 3
     ##   quality mean_citric.acid median_citric.acid
@@ -223,7 +223,7 @@ The distribution for volatile acidity becomes more right-skewed as the quality i
 
 The distribution for citric acid seems to become more normal as the quality increases. This is similar to the distribution for fixed acidity. I will explore later how correlated citric acid and fixed acidity are.
 
-![](projectTemplate_files/figure-markdown_github/Distribution_by_quality6-1.png)
+![](figure-markdown_github/Distribution_by_quality6-1.png)
 
     ## # A tibble: 6 × 3
     ##   quality mean_free.sulfur.dioxide median_free.sulfur.dioxide
@@ -235,7 +235,7 @@ The distribution for citric acid seems to become more normal as the quality incr
     ## 5       7                 14.04523                       11.0
     ## 6       8                 13.27778                        7.5
 
-![](projectTemplate_files/figure-markdown_github/Distribution_by_quality7-1.png)
+![](figure-markdown_github/Distribution_by_quality7-1.png)
 
     ## # A tibble: 6 × 3
     ##   quality mean_total.sulfur.dioxide median_total.sulfur.dioxide
@@ -249,7 +249,7 @@ The distribution for citric acid seems to become more normal as the quality incr
 
 The distributions of free sulfur dioxide and total sulfur dioxide seem to move in the same direction depending on the quality of the wine. This again reinforces my suspicion that they are related. I will investigate their correlation more later in this section.
 
-![](projectTemplate_files/figure-markdown_github/Distribution_by_quality11-1.png)
+![](figure-markdown_github/Distribution_by_quality11-1.png)
 
     ## # A tibble: 6 × 3
     ##   quality mean_alcohol median_alcohol
@@ -322,7 +322,7 @@ Now I want to create a couple of correlation matrixes in order to see the relati
     ## alcohol               0.20563251  0.093594750  1.00000000  0.47616632
     ## quality              -0.05773139  0.251397079  0.47616632  1.00000000
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot_Matrix-1.png)
+![](figure-markdown_github/Scatterplot_Matrix-1.png)
 
 It seems as if alcohol, volatile acidity, and sulphates have the highest level of correlation to quality. Residual sugar, free sulfur dioxide, and pH have the lowest correlation to quality.
 
@@ -330,7 +330,7 @@ As I suspected, fixed acidity and volatile acidity do not have as strong of a re
 
 Next I'll graph the relationship between quality and the various attributes to visually see their correlations.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot1-1.png)
+![](figure-markdown_github/Scatterplot1-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -346,7 +346,7 @@ Next I'll graph the relationship between quality and the various attributes to v
 
 The median fixed acidity rises as the quality rises, although there's a spike at 7.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot2-1.png)
+![](figure-markdown_github/Scatterplot2-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -362,7 +362,7 @@ The median fixed acidity rises as the quality rises, although there's a spike at
 
 The median volatile acidity drops as the quality rises. The range also decreases as the quality increases.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot3-1.png)
+![](figure-markdown_github/Scatterplot3-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -378,7 +378,7 @@ The median volatile acidity drops as the quality rises. The range also decreases
 
 The median citric acid level increases as quality increases. Although the level of citric acid was small in the wines, it seems to have been enough to make a difference in the taste of the wines.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot4-1.png)
+![](figure-markdown_github/Scatterplot4-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -394,7 +394,7 @@ The median citric acid level increases as quality increases. Although the level 
 
 The median residual sugar level stays pretty consistent as quality rises.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot5-1.png)
+![](figure-markdown_github/Scatterplot5-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -412,7 +412,7 @@ The median chloride level stays pretty consistent as quality rises.
 
 We can see the lack of a correlation especially for residual sugar and chlorides as the plots have a horizontal pattern and the medians stay level. As I had stated before, this may be due to the fact that the levels are so low they are unnoticeable in the wines.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot6-1.png)
+![](figure-markdown_github/Scatterplot6-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -428,7 +428,7 @@ We can see the lack of a correlation especially for residual sugar and chlorides
 
 It's interesting to see a rise and then a drop in median sulfur dioxide levels as quality increases. The range also increases and then decreases as quality increases.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot7-1.png)
+![](figure-markdown_github/Scatterplot7-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -444,7 +444,7 @@ It's interesting to see a rise and then a drop in median sulfur dioxide levels a
 
 Once again for total sulfur dioxide, we also see a rise and then a drop in the median as the quality increases. From these two graphs we can see that sulfur dioxide is not correlated to the quality of the red wine. Free sulfur dioxide has a Pearson's R of -0.5 to quality and total sulfur dioxide has a Person's R of -0.19 to quality.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot9-1.png)
+![](figure-markdown_github/Scatterplot9-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -460,7 +460,7 @@ Once again for total sulfur dioxide, we also see a rise and then a drop in the m
 
 There's a slight decline in median pH levels as quality increases, while the range is pretty consistent across all scores.
 
-![](projectTemplate_files/figure-markdown_github/Scatterplot11-1.png)
+![](figure-markdown_github/Scatterplot11-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -478,7 +478,7 @@ Median alcohol levels increase as quality increases. Alcohol also has the strong
 
 Next I want to explore the relationships between other variables.
 
-![](projectTemplate_files/figure-markdown_github/Other_Scatterplot0-1.png)
+![](figure-markdown_github/Other_Scatterplot0-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -492,7 +492,7 @@ Next I want to explore the relationships between other variables.
     ##        cor 
     ## -0.4961798
 
-![](projectTemplate_files/figure-markdown_github/Other_Scatterplot1-1.png)
+![](figure-markdown_github/Other_Scatterplot1-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -508,7 +508,7 @@ Next I want to explore the relationships between other variables.
 
 I was surprised to see that density was so closely related to both alcohol and fixed acidity.
 
-![](projectTemplate_files/figure-markdown_github/Other_Scatterplot2-1.png)
+![](figure-markdown_github/Other_Scatterplot2-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -524,7 +524,7 @@ I was surprised to see that density was so closely related to both alcohol and f
 
 Here we can see the strong relationship between fixed acidity and citric acid.
 
-![](projectTemplate_files/figure-markdown_github/Other_Scatterplot3-1.png)
+![](figure-markdown_github/Other_Scatterplot3-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -538,7 +538,7 @@ Here we can see the strong relationship between fixed acidity and citric acid.
     ##        cor 
     ## -0.6829782
 
-![](projectTemplate_files/figure-markdown_github/Other_Scatterplot4-1.png)
+![](figure-markdown_github/Other_Scatterplot4-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -554,7 +554,7 @@ Here we can see the strong relationship between fixed acidity and citric acid.
 
 pH has a stronger correlation to fixed acidity than it does to citric acid.
 
-![](projectTemplate_files/figure-markdown_github/Other_Scatterplot6-1.png)
+![](figure-markdown_github/Other_Scatterplot6-1.png)
 
     ## 
     ##  Pearson's product-moment correlation
@@ -596,19 +596,19 @@ The strongest relationship I found between any two variables was between pH and 
 Multivariate Plots Section
 ==========================
 
-![](projectTemplate_files/figure-markdown_github/Multivariate_Plots1-1.png)
+![](figure-markdown_github/Multivariate_Plots1-1.png)
 
 Wines with lower levels of volatile acidity and higher levels of citric acid tend to be of better quality.
 
-![](projectTemplate_files/figure-markdown_github/Multivariate_Plots2-1.png)
+![](figure-markdown_github/Multivariate_Plots2-1.png)
 
 Wines with higher levels of sulfate and lower levels of volatile acidity tend to be of better quality.
 
-![](projectTemplate_files/figure-markdown_github/Multivariate_Plots3-1.png)
+![](figure-markdown_github/Multivariate_Plots3-1.png)
 
 Wines that are less dense with higher alcohol content tend to be of better quality.
 
-![](projectTemplate_files/figure-markdown_github/Multivariate_Plots4-1.png)
+![](figure-markdown_github/Multivariate_Plots4-1.png)
 
 Wines with higher alcohol content and higher levels of sulphates tend to be of better quality.
 
@@ -632,7 +632,7 @@ Final Plots and Summary
 
 ### Plot One
 
-![](projectTemplate_files/figure-markdown_github/Plot_One-1.png)
+![](figure-markdown_github/Plot_One-1.png)
 
 ### Description One
 
@@ -640,7 +640,7 @@ The distributions for fixed acidity and citric acid show similar movement as the
 
 ### Plot Two
 
-![](projectTemplate_files/figure-markdown_github/Plot_Two-1.png)
+![](figure-markdown_github/Plot_Two-1.png)
 
 ### Description Two
 
@@ -648,7 +648,7 @@ Alcohol showed the strongest correlation to the quality of wine with a Pearon's 
 
 ### Plot Three
 
-![](projectTemplate_files/figure-markdown_github/Plot_Three-1.png)
+![](figure-markdown_github/Plot_Three-1.png)
 
 ### Description Three
 
