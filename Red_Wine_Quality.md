@@ -134,7 +134,7 @@ Most wines received a 5 or 6 rating, with very few receiving a very bad (3) rati
 Univariate Analysis
 ===================
 
-### What is the structure of your dataset?
+### Structure of the dataset
 
 The dataset consists of 1599 observations with 11 input variables and 1 output variable.
 
@@ -164,15 +164,13 @@ Observations:
 -   The middle 50% of wines have pH levels between 3.2 and 3.4
 -   The median percent alcohol content of the wines is 10.2%
 
-### What is/are the main feature(s) of interest in your dataset?
+### Main features of interest in the dataset
 
 I am interested in determining which variables impact the quality of the wine the most. The main features of interest in this dataset are alcohol, volatile acidity, citric acid, residual sugar, total sulfur dioxide, and chloride levels as I believe these would affect the taste of the red wine.
 
-### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
-
 As some of the variables may be correlated, I am interested to see if fixed acidity and free sulfur dioxide also affect the quality of the wine as they seem to be linked to volatile acidity and total sulfur dioxide respectively.
 
-### Of the features you investigated, were there any unusual distributions? Did you perform any operations on the data to tidy, adjust, or change the form of the data? If so, why did you do this?
+### Transformations in the data
 
 I log-transformed residual sugar, chlorides, free sulfur dioxide, and total sulfur dioxide as these distributions were skewed right. The transformed distribution for all of these were unimodal with the exception of free sulfure dioxide which seems to be bimodal.
 
@@ -573,7 +571,7 @@ Here we can see a strong relationship between free sulfur dioxide and total sulf
 Bivariate Analysis
 ==================
 
-### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
+### Relationships observed
 
 Percent alcohol correlated the strongest with quality with a correlation of 0.48. As the percent alcohol increased, the quality of the wine increased as well.
 
@@ -583,11 +581,7 @@ I had originally thought that total sulfur dioxide would have a stronger correla
 
 I was surprised to see that residual sugar and chlorides had such low correlation with the quality of the wine. It seems as if for most of the wines the levels of sugar and chlorides were so low that they were undetectable in the taste of the wine.
 
-### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
-
 There were many strong correlations between the various acid variables along with pH levels, which was not too surprising given that they all have to do with acid. However what did surprise me was how strong of a relationship density had with both alcohol and fixed acidity.
-
-### What was the strongest relationship you found?
 
 The strongest relationship I found for quality was the percent alcohol in the wine with a correlation of 0.48.
 
@@ -615,13 +609,11 @@ Wines with higher alcohol content and higher levels of sulphates tend to be of b
 Multivariate Analysis
 =====================
 
-### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
+### Relationships observed
 
 As the amount of acetic acid decreases, the amount of citric acid increases. Those wines with lower levels of acetic acid and higher levels of citric acid tend to be rated better quality.
 
 The amount of acetic acid also shows some relationship with the amount of sulphates in the wine. Those wines with more acetic acid tend to have less sulphate, which correlates to a lower quality wine.
-
-### Were there any interesting or surprising interactions between features?
 
 As mentioned before, what surprised me was the correlation between alcohol and density. We can see from the Quality x Density x Alcohol plot that those wines that are less dense tend to be of higher alcohol content and better quality.
 
